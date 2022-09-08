@@ -1,14 +1,18 @@
 #include <stdio.h>
+#include <string.h>
 
 /**
- * main - Enter function and use puts
- 
- *
- * Return: Always 0 Success
- */
+*main - Main function of my project
+*
+*
+*Return: return 0 everytime
+*/
+int main(void)
+{
 
+	char displayed[52];
 
-int main(void){
-	puts("\"Programming is like building a multilingual puzzle");
-	return 0;
+	strcpy(displayed, "\"Programming is like building a multilingual puzzle");
+	puts(displayed);
+	return (0);
 }
