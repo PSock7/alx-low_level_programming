@@ -1,28 +1,22 @@
 #include <stdio.h>
-
+#include <ctype.h>
 /**
- * main - outputs decimal numbers to 9
- * with space and comma.
- *
- *
- *
- * Return: the integer(0 success)
- */
-
+*main - Prints all single digits with , and space followed by new line
+*
+*Return: returns 0
+*/
 int main(void)
 {
-int number;
+	int digit;
+	for (digit = '0'; digit <= '9'; digit++)
+	{
+		putchar(digit);
+		if (digit == '9')
+			continue;
 
-for (number = '0'; number <= '9'; number++)
-{
-    putchar(number);
-    if (number != '9')
-    {
-        putchar(',');
-        putchar(' ');
-    }
+		putchar(',');
+		putchar(' ');
+	}
+	putchar('\n');
+	return (0);
 }
-putchar('\n');
-return (0);
-}
-
