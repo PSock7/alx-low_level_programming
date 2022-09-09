@@ -7,9 +7,8 @@
 */
 int main(void)
 {
-	int letter;
 	
-	for (letter = 'a'; letter <= 'z'; letter++)
+	for (int letter = 'a'; letter <= 'z'; letter++)
 	{
 		letter = tolower(letter);
 		putchar(letter);
