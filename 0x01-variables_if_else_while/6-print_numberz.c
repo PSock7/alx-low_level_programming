@@ -1,19 +1,21 @@
-#include <stdio.h>
 #include <stdlib.h>
-/**
- * main program print all single digit numbers of base 10 starting from 0 followed by the new line
- *
- * return 0
- */
+#include <stdio.h>
 
+/**
+ * main - to tell if a random number is either - or +
+ *
+ * n is the random integer
+ *
+ * Return: the integer
+ */
 int main(void)
 {
-	int digit;
+int i = 0;
 
-	for (digit = '0'; digit <= '9'; digit++)
-	{
-		putchar(digit);
-	}
-	putchar('\n');
-	return (0);
+for (; i <= 9 ; i++)
+{
+	putchar(i + '0');
+}
+putchar('\n');
+return (0);
 }

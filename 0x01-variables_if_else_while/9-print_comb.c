@@ -1,23 +1,28 @@
-nclude <stdlib.h>
+#include <stdio.h>
+
 /**
- * Main program return all posssible combienations of single-digit number i.e random
+ * main - outputs decimal numbers to 9
+ * with space and comma.
  *
- * return 0
+ *
+ *
+ * Return: the integer(0 success)
  */
+
 int main(void)
 {
-        int digit;
+int number;
 
-        for (digit = '0'; digit <= '9'; digit++)
-        {
-                putchar(digit);
-                if (digit == '9')
-                        continue;
-
-                putchar(',');
-                putchar(' ');
-        }
-        putchar('\n');
-        return (0);
+for (number = '0'; number <= '9'; number++)
+{
+    putchar(number);
+    if (number != '9')
+    {
+        putchar(',');
+        putchar(' ');
+    }
+}
+putchar('\n');
+return (0);
 }
 
