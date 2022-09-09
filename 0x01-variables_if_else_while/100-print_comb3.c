@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
- * Main program prints all possibles combinations of three digits
- *
- * return 0
- */
+*main - Prints all combinations of two digits with,
+* and space followed by new line
+*
+*Return: returns 0
+*/
 int main(void)
 {
 	int digit1, digit2;

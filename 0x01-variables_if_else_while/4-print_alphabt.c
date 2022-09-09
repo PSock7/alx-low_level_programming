@@ -1,12 +1,10 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- *Main program print alphabet in lowercase followed a new line except q and e
- *
- *
- */
-
-
+*main - Program to print alphabet letters except q and e followed by new line
+*
+*Return: return 0
+*/
 int main(void)
 {
 	int letter;
@@ -22,3 +20,4 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
+

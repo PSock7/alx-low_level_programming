@@ -1,24 +1,23 @@
-#include <stdio.h>
-#include <stdlib.h>
+nclude <stdlib.h>
 /**
  * Main program return all posssible combienations of single-digit number i.e random
  *
- * return 0 
+ * return 0
  */
 int main(void)
 {
-	int digit;
+        int digit;
 
-	for (digit = '0'; digit <= '9'; digit++)
-	{
-		putchar(digit);
-		if (digit == '9')
-			continue;
+        for (digit = '0'; digit <= '9'; digit++)
+        {
+                putchar(digit);
+                if (digit == '9')
+                        continue;
 
-		putchar(',');
-		putchar(' ');
-	}
-	putchar('\n');
-	return (0);
+                putchar(',');
+                putchar(' ');
+        }
+        putchar('\n');
+        return (0);
 }
 

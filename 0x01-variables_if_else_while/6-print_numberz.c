@@ -8,11 +8,11 @@
 
 int main(void)
 {
-	int signle_digit;
+	int digit;
 
-	for (signle_digit = '0'; single_digit <= '9'; single_digit++)
+	for (digit = '0'; digit <= '9'; digit++)
 	{
-		putchar(single_digit);
+		putchar(digit);
 	}
 	putchar('\n');
 	return (0);
