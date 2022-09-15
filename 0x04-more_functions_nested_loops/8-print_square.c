@@ -1,3 +1,4 @@
+
 #include "main.h"
 /**
 *print_square - prints squares
@@ -20,4 +21,6 @@ _putchar('\n');
 }
 else
 {
-
+_putchar('\n');
+}
+}
