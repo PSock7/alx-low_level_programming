@@ -17,4 +17,9 @@ _putchar(' ');
 _putchar('\\');
 
 if (len == (n - 1))
-
+continue;
+_putchar('\n');
+}
+}
+_putchar('\n');
+}
